@@ -4,7 +4,8 @@ const router = express.Router();
 database..?*/
 
 router.get('/',(req, res) => {
-    res.json(result);
+    console.log(e);
+    res.send(500);
 })
 
 /* router.get("/",(req, res) => {
@@ -17,9 +18,12 @@ router.get('/',(req, res) => {
 }); */
 
 router.post('/', (req, res) => {
+    json..
     const {title, description, name} = req.body;
+    res.send(500);
 
 })
+
 
 /* router.post("/", async (req, res) => {
     const { title, description, name } = req.body;
@@ -35,6 +39,10 @@ router.get("/:", async(req,res) => {
     const board = req.params;
 });
 
+router.put('/', (req, res) => {
+    json..
+})
+
 /* router.get("/:", async(req,res) => {
     const board = req.params;
 }); */
@@ -42,8 +50,9 @@ router.get("/:", async(req,res) => {
 module.exports = router;
 
 /* localhost:3000/board를 쳤을때 router들이 실행되도록
+localhost:3000...............
 get방식으로 board 내의 정보들이 나오도록
 post방식으로 json을 사용하여 insert
-put 방식으로 json을 사용하여 update 이건 뭘까..
+put 방식으로 json을 사용하여 updates
 delete방식으로 id의 게시판이 사라지도록
-어떻게 하는거지..? */
+어떻게 하는거지..? 공부 좀 할걸......*/
