@@ -18,7 +18,7 @@ router.get('/',(req, res) => {
 }); */
 
 router.post('/', (req, res) => {
-    json..
+    json
     const {title, description, name} = req.body;
     res.send(500);
 
@@ -40,7 +40,7 @@ router.get("/:", async(req,res) => {
 });
 
 router.put('/', (req, res) => {
-    json..
+    json
 })
 
 /* router.get("/:", async(req,res) => {
@@ -54,5 +54,4 @@ localhost:3000...............
 get방식으로 board 내의 정보들이 나오도록
 post방식으로 json을 사용하여 insert
 put 방식으로 json을 사용하여 updates
-delete방식으로 id의 게시판이 사라지도록
-어떻게 하는거지..? 공부 좀 할걸......*/
+delete방식으로 id의 게시판이 사라지도록*/
